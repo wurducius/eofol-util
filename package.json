@@ -1,6 +1,8 @@
 {
   "name": "eofol-util",
-  "private": true,
+  "description": "Utility library organized around project eofol",
+  "author": "Jakub Eliáš <wurducius@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
