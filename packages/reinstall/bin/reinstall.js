@@ -5,7 +5,7 @@
 const {evalBoolParam} = require("@eofol-util/args");
 const {reinstall} = require("../src/reinstall")
 
-const noCleanCache = evalBoolParam("-c", "--no-clean")
+const noCleanCache = evalBoolParam("-c", "--no-lint")
 const forceCleanCache = evalBoolParam("-f", "--force")
 const forceInstall = evalBoolParam("-if", "--install-force")
 

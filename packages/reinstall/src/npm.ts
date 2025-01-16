@@ -1,21 +1,7 @@
-import {spawnOptions} from "@eofol-util/misc"
+import {spawnOptions,execCmd} from "@eofol-util/misc"
 
 const LOGLEVEL = 3;
 const {info} = getLogger(LOGLEVEL, "npm-scripts");
-
-const execCmd = (cmd, args, handleClose) => {
-    const executing = spawn(
-        cmd,
-        ((Array.isArray(args) ? [args] : args).filter(Boolean) as string[]),
-        spawnOptions
-    );
-    executing.on("error", (data) => {
-        error(data.message);
-    });
-    executing.on("close", () => {
-        handleClose()
-    });
-}
 
 const execNpm = (args, successMsg) => execCmd("npm", args, () => {
     if (successMsg) {
