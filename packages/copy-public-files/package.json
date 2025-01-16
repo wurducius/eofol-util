@@ -1,0 +1,25 @@
+{
+  "name": "@eofol-util/copy-public-files",
+  "version": "0.0.1",
+  "exports": {
+    "./copy-public-files": "./src/copy-public-files.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eofol-util/fs": "*"
+  },
+  "devDependencies": {
+    "@eofol-util/eslint-config": "*",
+    "@eofol-util/typescript-config": "*",
+    "typescript": "5.5.4"
+  },
+  "bugs": "https://github.com/wurducius/eofol-util/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurducius/eofol-util.git",
+    "directory": "packages/copy-public-files"
+  }
+}

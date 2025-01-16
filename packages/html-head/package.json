@@ -1,0 +1,28 @@
+{
+  "name": "@eofol-util/html-head",
+  "version": "0.0.1",
+  "exports": {
+    "./default-head-data": "./src/default-head-data.ts",
+    "./head": "./src/head.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eofol-util/fs": "*",
+    "@eofol/html-parser": "^0.0.1",
+    "@eofol/merge-deep": "^0.0.1"
+  },
+  "devDependencies": {
+    "@eofol-util/eslint-config": "*",
+    "@eofol-util/typescript-config": "*",
+    "typescript": "5.5.4"
+  },
+  "bugs": "https://github.com/wurducius/eofol-util/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurducius/eofol-util.git",
+    "directory": "packages/html-head"
+  }
+}
