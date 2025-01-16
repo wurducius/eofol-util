@@ -2,9 +2,9 @@
   "name": "@eofol-util/misc",
   "version": "0.0.1",
   "exports": {
-    "./func: "./src/func.ts"
-    "./spawn: "./src/spawn.ts"
-    "./string: "./src/string.ts"
+    "./func": "./src/func.ts",
+    "./spawn": "./src/spawn.ts",
+    "./string": "./src/string.ts"
   },
   "scripts": {
     "lint": "eslint logger --max-warnings 0",
