@@ -1,0 +1,19 @@
+{
+  "name": "@eofol-util/clean",
+  "version": "0.0.1",
+  "exports": {
+    "./clean": "./src/clean.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eofol-util/fs": "*"
+  },
+  "devDependencies": {
+    "@eofol-util/eslint-config": "*",
+    "@eofol-util/typescript-config": "*",
+    "typescript": "5.5.4"
+  }
+}

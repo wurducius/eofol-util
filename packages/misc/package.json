@@ -1,0 +1,21 @@
+{
+  "name": "@eofol-util/misc",
+  "version": "0.0.1",
+  "exports": {
+    "./func: "./src/func.ts"
+    "./spawn: "./src/spawn.ts"
+    "./string: "./src/string.ts"
+  },
+  "scripts": {
+    "lint": "eslint logger --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eofol-util/fs": "*"
+  },
+  "devDependencies": {
+    "@eofol-util/eslint-config": "*",
+    "@eofol-util/typescript-config": "*",
+    "typescript": "5.5.4"
+  }
+}
