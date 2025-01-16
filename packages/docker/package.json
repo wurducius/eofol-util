@@ -1,14 +1,21 @@
 {
-  "name": "@eofol-util/args",
-  "version": "0.0.2",
-  "exports": {
-    "./args": "./src/args.ts"
+  "name": "@eofol-util/docker",
+  "version": "0.0.1",
+  "description": "",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "docker": "./bin/docker.js"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@eofol-util/args": "^0.0.2",
+    "@eofol-util/eofol-dev-utils": "*",
+    "@eofol-util/misc": "^0.0.2"
   },
   "devDependencies": {
     "@eofol-util/eslint-config": "*",
@@ -19,6 +26,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/wurducius/eofol-util.git",
-    "directory": "packages/args"
+    "directory": "packages/create-eofol-app"
   }
 }

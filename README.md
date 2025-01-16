@@ -6,7 +6,7 @@ Packages:
 
 ## args
 
-## clean
+## lint
 
 ## create-eofol-app
 

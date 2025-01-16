@@ -1,14 +1,22 @@
 {
-  "name": "@eofol-util/args",
+  "name": "@eofol-util/reinstall",
   "version": "0.0.2",
   "exports": {
-    "./args": "./src/args.ts"
+    "./reinstall": "./src/reinstall.ts"
+  },
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "reinstall": "./bin/reinstall.js"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@eofol-util/args": "^0.0.1",
+    "@eofol-util/misc": "^0.0.2"
   },
   "devDependencies": {
     "@eofol-util/eslint-config": "*",
@@ -19,6 +27,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/wurducius/eofol-util.git",
-    "directory": "packages/args"
+    "directory": "packages/npm"
   }
 }

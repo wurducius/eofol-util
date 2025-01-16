@@ -1,14 +1,21 @@
 {
   "name": "@eofol-util/serve",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "exports": {
     "./serve": "./src/serve.ts"
+  },
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "serve": "./bin/serve.js"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@eofol-util/args": "^0.0.2",
     "eofol-dev-server": "^0.0.1",
     "open": "^10.1.0"
   },

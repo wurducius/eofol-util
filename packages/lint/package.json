@@ -1,14 +1,24 @@
 {
-  "name": "@eofol-util/args",
-  "version": "0.0.2",
+  "name": "@eofol-util/lint",
+  "version": "0.0.1",
   "exports": {
-    "./args": "./src/args.ts"
+    "./lint": "./src/lint.ts"
+  },
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "./check": "./bin/check.js",
+    "./lint": "./bin/lint.js",
+    "./prettify": "./bin/prettify.js"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@eofol-util/args": "^0.0.2",
+    "@eofol-util/misc": "^0.0.1"
   },
   "devDependencies": {
     "@eofol-util/eslint-config": "*",
@@ -19,6 +29,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/wurducius/eofol-util.git",
-    "directory": "packages/args"
+    "directory": "packages/clean"
   }
 }
