@@ -24,7 +24,7 @@ const copyResource = (sourcePath, targetPath) => readAsync(join(CWD, "resources"
 
 const CWD = process.cwd()
 
-copyResource("index.html")
+copyResource("index.gzip")
 copyResource("manifest.json")
 copyResource("favicon.ico")
 copyResource("robots.txt")

@@ -1,0 +1,27 @@
+{
+  "name": "@eofol-util/sx",
+  "version": "0.0.1",
+  "exports": {
+    "./html": "./src/sx.ts",
+    "./types": "./src/types.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eofol-util/crypto": "^0.0.1",
+    "csstype": "^3.1.3"
+  },
+  "devDependencies": {
+    "@eofol-util/eslint-config": "*",
+    "@eofol-util/typescript-config": "*",
+    "typescript": "5.5.4"
+  },
+  "bugs": "https://github.com/wurducius/eofol-util/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurducius/eofol-util.git",
+    "directory": "packages/sx"
+  }
+}
