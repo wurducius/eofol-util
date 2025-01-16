@@ -1,6 +1,7 @@
 {
   "name": "@eofol-util/create-eofol-app",
   "version": "0.0.2",
+  "description": "Create a reactive app from template with zero configuration!",
   "files": [
     "bin"
   ],
@@ -18,5 +19,11 @@
     "@eofol-util/eslint-config": "*",
     "@eofol-util/typescript-config": "*",
     "typescript": "5.5.4"
+  },
+  "bugs": "https://github.com/wurducius/eofol-util/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurducius/eofol-util.git",
+    "directory": "packages/create-eofol-app"
   }
 }
