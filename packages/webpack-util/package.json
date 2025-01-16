@@ -1,0 +1,28 @@
+{
+  "name": "@eofol-util/webpack-util",
+  "version": "0.0.1",
+  "exports": {
+    "./webpack-util": "./src/webpack-util.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eofol-util/dev-tools": "^0.0.1",
+    "@eofol-util/fs": "*",
+    "@eofol-util/minify": "*",
+    "@eofol-util/img": "*"
+  },
+  "devDependencies": {
+    "@eofol-util/eslint-config": "*",
+    "@eofol-util/typescript-config": "*",
+    "typescript": "5.5.4"
+  },
+  "bugs": "https://github.com/wurducius/eofol-util/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurducius/eofol-util.git",
+    "directory": "packages/webpack-util"
+  }
+}

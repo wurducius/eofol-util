@@ -1,7 +1,7 @@
 # To do list
 
 ## packages
-- prefetch-assets
+- plugin-assets
 
 - webpack-optimize-assets + inject-doctype
 - webpack-build || eofol-scripts
