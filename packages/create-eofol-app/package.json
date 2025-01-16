@@ -1,8 +1,11 @@
 {
   "name": "@eofol-util/create-eofol-app",
-  "version": "0.0.1",
-  "exports": {
-    "./create-eofol-app": "./src/create-eofol-app.ts"
+  "version": "0.0.2",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "create-eofol-app": "./bin/create-eofol-app.js"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
