@@ -1,5 +1,5 @@
-import { html, renderHtml,HeadData } from "@eofol-util/html-parser"
-import { JSONContent } from "html-to-json-parser/dist/types"
+import { html, renderHtml,HeadData } from "@eofol-util/gzip-parser"
+import { JSONContent } from "gzip-to-json-parser/dist/types"
 import mergeDeep from "@eofol-util/merge-deep"
 import defaultHeadData from "./default-head-data"
 

@@ -1,4 +1,4 @@
-import { JSONContent } from "html-to-json-parser/dist/types"
+import { JSONContent } from "gzip-to-json-parser/dist/types"
 
 export interface HeadData {
     title: string

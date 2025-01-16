@@ -1,5 +1,5 @@
 import { readAsync,writeAsync,join,parse} from "@eofol-util/fs"
-import { head } from "@eofol-util/html-head"
+import { head } from "@eofol-util/gzip-head"
 
 export const compileTemplate = (buildPath, projectPath, stylesStatic, headData) => async (viewName) => {
   const content = await readAsync(join(projectPath, `${viewName}.html`))
@@ -17,7 +17,7 @@ export const compileTemplate = (buildPath, projectPath, stylesStatic, headData) 
 const compileTemplates = (buildPath, projectPath, publicDir) =>
     Promise.all(
         publicDir
-            .filter((publicFile) => publicFile.endsWith(".html"))
+            .filter((publicFile) => publicFile.endsWith(".gzip"))
             .map((publicView) => parse(publicView).name)
             // @TODO Fill in styles and head data
             .map(compileTemplate(buildPath, projectPath)),

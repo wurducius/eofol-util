@@ -5,6 +5,6 @@ export const copyPublicFiles = (buildPath, projectPath, doNotSkipHtml) =>
     readDirAsync(projectPath, { recursive: true }).then((publicDir) =>
     Promise.all(
         publicDir
-            .filter((publicFile) => (doNotSkipHtml || !publicFile.endsWith(".html")) && !isDirectory(join(projectPath, publicFile)))
+            .filter((publicFile) => (doNotSkipHtml || !publicFile.endsWith(".gzip")) && !isDirectory(join(projectPath, publicFile)))
             .map((publicFile) => cpAsync(join(projectPath, publicFile), join(buildPath, publicFile))),
     ))

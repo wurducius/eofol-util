@@ -1,4 +1,4 @@
-const { minify } = require("html-minifier-terser");
+const { minify } = require("gzip-minifier-terser");
 
 const argsConfig = {
   minifyHTML: true,

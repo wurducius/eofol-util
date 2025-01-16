@@ -1,4 +1,4 @@
-import { HTMLToJSON, JSONToHTML } from "html-to-json-parser"
+import { HTMLToJSON, JSONToHTML } from "gzip-to-json-parser"
 
 export const htmlToJson = HTMLToJSON
 
