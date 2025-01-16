@@ -1,14 +1,30 @@
 {
-  "name": "@eofol-util/prefetch-assets",
+  "name": "@eofol-util/eofol-scripts",
   "version": "0.0.1",
+  "description": "Eofol build and development scripts",
   "exports": {
-    "./prefetch": "./src/prefetch.ts"
+    "./webpack-build": "./src/webpack-build.ts",
+    "./webpack.config": "./src/webpack.config.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "bin": {
+    "eofol-scripts": "./bin/eofol-scripts.js"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@eofol-util/args": "*",
+    "@eofol-util/dev-tools": "*",
+    "@eofol-util/fs": "*",
+    "ts-loader": "^9.5.2",
+    "webpack": "^5.97.1",
+    "webpack-bundle-analyzer": "^4.10.2"
+  },
   "devDependencies": {
     "@eofol-util/eslint-config": "*",
     "@eofol-util/typescript-config": "*",
@@ -18,6 +34,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/wurducius/eofol-util.git",
-    "directory": "packages/prefetch-assets"
+    "directory": "packages/eofol-scripts"
   }
 }

@@ -1,14 +1,17 @@
 {
-  "name": "@eofol-util/prefetch-assets",
+  "name": "@eofol-util/internals",
   "version": "0.0.1",
   "exports": {
-    "./prefetch": "./src/prefetch.ts"
+    "./internals": "./src/internals.ts",
+    "./internals-compile": "./src/internals-compile.js"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@eofol-util/merge-deep": "*"
+  },
   "devDependencies": {
     "@eofol-util/eslint-config": "*",
     "@eofol-util/typescript-config": "*",
@@ -18,6 +21,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/wurducius/eofol-util.git",
-    "directory": "packages/prefetch-assets"
+    "directory": "packages/internals"
   }
 }

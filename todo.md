@@ -1,16 +1,9 @@
 # To do list
 
 ## packages
-- plugin-assets
-
-- webpack-optimize-assets + inject-doctype
-- webpack-build || eofol-scripts
-- webpack-utils (addAsset, lifecycles and such)
-- webpack-plugin-boilerplate (with lifecycles) ||! eofol-plugin
-- inject-internals (?& internals)
-
-- ??? ui (basic, reusable)
-- ??? theme
+- internals-assets
+- internals
+- eofol-scripts
 
 - progress
 - web-test
@@ -20,3 +13,6 @@
 - debounce
 - fetchx
 - service-worker
+- 
+- ??? ui (basic, reusable)
+- ??? theme
