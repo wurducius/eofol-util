@@ -1,15 +1,22 @@
 {
   "name": "@eofol-util/clean",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "exports": {
     "./clean": "./src/clean.ts"
+  },
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "create-eofol-app": "./bin/create-eofol-app.js"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/fs": "*"
+    "@eofol-util/fs": "*",
+    "@eofol-util/args": "^0.0.2"
   },
   "devDependencies": {
     "@eofol-util/eslint-config": "*",

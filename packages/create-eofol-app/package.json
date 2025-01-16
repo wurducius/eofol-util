@@ -1,6 +1,6 @@
 {
   "name": "@eofol-util/create-eofol-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create a reactive app from template with zero configuration!",
   "files": [
     "bin"
@@ -13,7 +13,8 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/eofol-dev-utils": "*"
+    "@eofol-util/eofol-dev-utils": "*",
+    "@eofol-util/args": "^0.0.2"
   },
   "devDependencies": {
     "@eofol-util/eslint-config": "*",

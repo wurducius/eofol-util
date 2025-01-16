@@ -1,6 +1,6 @@
 {
   "name": "@eofol-util/args",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "exports": {
     "./args": "./src/args.ts"
   },

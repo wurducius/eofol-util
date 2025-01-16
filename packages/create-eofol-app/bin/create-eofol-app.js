@@ -2,21 +2,23 @@
 
 "use strict";
 
-const {argv} = require("node:process");
+const {getArgs} = require("@eofol-util/args");
 const createEofolApp = require("./create-eofol-app-impl");
 
 let gitUrl = "https://github.com/wurducius/eofol5.git"
 let title = "Create Eofol5 app"
 let exampleCommand = "npx @eofol-util/create-eofol-app project-name [gitUrl] [title] [exampleCommand]"
 
-if (argv.length > 3) {
-    gitUrl = argv[3]
+const args = getArgs()
+
+if (args.length > 0) {
+    gitUrl = args[0]
 }
-if (argv.length > 4) {
-    title = argv[4]
+if (args.length > 1) {
+    title = args[1]
 }
-if (argv.length > 5) {
-    exampleCommand = argv[5]
+if (args.length > 2) {
+    exampleCommand = args[2]
 }
 
 createEofolApp(gitUrl, title, exampleCommand)
