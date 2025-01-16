@@ -24,7 +24,7 @@ Packages:
 
 ## minify
 
-minifyHtml and minifyJs
+parser and minifyJs
 
 ## misc
 

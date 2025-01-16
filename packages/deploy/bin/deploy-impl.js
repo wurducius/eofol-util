@@ -1,4 +1,4 @@
-const {existsAsync, writeAsync, join, mkdirAsync} = require("@eofol-util/fs")
+const {existsAsync, writeAsync, join} = require("@eofol-util/fs")
 import {execCmd} from "@eofol-util/misc"
 
 const writeIdempotent = (pathname, content) => {

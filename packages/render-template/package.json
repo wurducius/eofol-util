@@ -1,0 +1,26 @@
+{
+  "name": "@eofol-util/render-template",
+  "version": "0.0.1",
+  "exports": {
+    "./template": "./src/template.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eofol-util/html-head": "^0.0.1",
+    "@eofol-util/fs": "*"
+  },
+  "devDependencies": {
+    "@eofol-util/eslint-config": "*",
+    "@eofol-util/typescript-config": "*",
+    "typescript": "5.5.4"
+  },
+  "bugs": "https://github.com/wurducius/eofol-util/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurducius/eofol-util.git",
+    "directory": "packages/render-template"
+  }
+}
