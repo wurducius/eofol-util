@@ -15,5 +15,11 @@
     "@eofol-util/eslint-config": "*",
     "@eofol-util/typescript-config": "*",
     "typescript": "5.5.4"
+  },
+  "bugs": "https://github.com/wurducius/eofol-util/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurducius/eofol-util.git",
+    "directory": "packages/merge-deep"
   }
 }

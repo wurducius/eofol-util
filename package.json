@@ -22,5 +22,10 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "bugs": "https://github.com/wurducius/eofol-util/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurducius/eofol-util.git"
+  }
 }
