@@ -2,7 +2,7 @@
 
 "use strict";
 
-const {evalNamedParam} = require("@eofol-util/args")
+const {evalNamedParam} = require("@eofol-utils/args")
 const {webpackBuild} = require("../src/webpack-build");
 
 const analyze = evalNamedParam("analyze")

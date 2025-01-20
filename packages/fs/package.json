@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/fs",
+  "name": "@eofol-utils/fs",
   "version": "0.0.1",
   "exports": {
     "./npm": "./src/fs.ts"
@@ -12,8 +12,8 @@
     "rimraf": "^6.0.1"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

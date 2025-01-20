@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/webpack-optimize-assets",
+  "name": "@eofol-utils/webpack-optimize-assets",
   "version": "0.0.1",
   "exports": {
     "./optimize-assets": "./src/optimize-assets.ts"
@@ -9,13 +9,13 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/webpack-util": "*",
-    "@eofol-util/fs": "*",
-    "@eofol-util/minify": "*"
+    "@eofol-utils/webpack-util": "*",
+    "@eofol-utils/fs": "*",
+    "@eofol-utils/minify": "*"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

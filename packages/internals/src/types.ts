@@ -1,6 +1,10 @@
+export type View = { url:string }
+
 export interface Asset {
     url: string
     size: number
+    page: string
+    priority: number
 }
 
 export type AssetMap = Record<string, Asset>
@@ -11,8 +15,6 @@ export interface Assets {
     other: Asset[]
 }
 
-export type Views = string[]
-
 export type InternalsConfig = Record<string, string>
 
 export type InternalsEnv = Record<string, string>
@@ -20,7 +22,7 @@ export type InternalsEnv = Record<string, string>
 export interface Internals {
     instances: Record<string, Instance>
     vdom: { tree: VDOM[] }
-    views: Views
+    views: View[]
     assets: Assets
     config: InternalsConfig
     env: InternalsEnv

@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/misc",
+  "name": "@eofol-utils/misc",
   "version": "0.0.2",
   "exports": {
     "./func": "./src/func.ts",
@@ -11,11 +11,11 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/fs": "*"
+    "@eofol-utils/fs": "*"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

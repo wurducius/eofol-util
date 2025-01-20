@@ -2,7 +2,7 @@
 
 "use strict";
 
-const {evalNamedParam, getArgs} = require("@eofol-util/args");
+const {evalNamedParam, getArgs} = require("@eofol-utils/args");
 const {serve} = require("../src/serve")
 
 const args = getArgs()

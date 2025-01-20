@@ -1,6 +1,6 @@
 import {join} from "node:path";
-import {existsAsync, rmAsync} from "@eofol-util/fs";
-import {getLogger} from "@eofol-util/logger";
+import {existsAsync, rmAsync} from "@eofol-utils/fs";
+import {getLogger} from "@eofol-utils/logger";
 import {npmCacheClean, npmInstall} from "./npm";
 
 const LOGLEVEL = 3;

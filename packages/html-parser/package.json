@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/html-parser",
+  "name": "@eofol-utils/html-parser",
   "version": "0.0.1",
   "exports": {
     "./html": "./src/html.ts",
@@ -15,8 +15,8 @@
     "html-to-json-parser": "^2.0.1"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

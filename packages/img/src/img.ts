@@ -1,6 +1,6 @@
 import sharp from "sharp"
 import {optimize} from "svgo"
-import {read} from "@eofol-util/fs"
+import {read} from "@eofol-utils/fs"
 
 const IMAGE_PROCESSING_INCLUDE_METADATA = false
 

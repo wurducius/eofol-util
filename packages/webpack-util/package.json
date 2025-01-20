@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/webpack-util",
+  "name": "@eofol-utils/webpack-util",
   "version": "0.0.1",
   "exports": {
     "./webpack-util": "./src/webpack-util.ts"
@@ -9,14 +9,14 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/dev-tools": "^0.0.1",
-    "@eofol-util/fs": "*",
-    "@eofol-util/minify": "*",
-    "@eofol-util/img": "*"
+    "@eofol-utils/dev-tools": "^0.0.1",
+    "@eofol-utils/fs": "*",
+    "@eofol-utils/minify": "*",
+    "@eofol-utils/img": "*"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

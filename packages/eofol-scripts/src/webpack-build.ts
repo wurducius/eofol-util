@@ -1,11 +1,11 @@
 const webpack = require("webpack")
-const {error, success} = require("@eofol-util/dev-tools")
-const {join, readDirAsync} = require("@eofol-util/fs")
+const {error, success} = require("@eofol-utils/dev-tools")
+const {join, readDirAsync} = require("@eofol-utils/fs")
 const getWebpackConfig = require("../src/webpack.config")
 
 const CWD = process.cwd()
 
-export const collectViews = (projectPathImpl) => readDirAsync(projectPathImpl, {recursive: true}).filter((publicFile) => publicFile.endsWith(".html"))
+export const collectViews = (projectPathImpl) => readDirAsync(projectPathImpl, {recursive: true}).filter((publicFile) => publicFile.endsWith(".html")).map((url) => ({ url}))
 
 export const webpackBuild = ({views, plugins, analyze, mode, projectDir, buildDir}) => {
     const projectDirImpl = projectDir ?? "project"

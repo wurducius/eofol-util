@@ -1,6 +1,6 @@
-import {addAsset, getAsset, PLUGIN_INTERNAL} from "@eofol-util/webpack-util"
-import {join, read} from "@eofol-util/fs"
-import {minifyHtml, minifyJs} from "@eofol-util/minify"
+import {addAsset, getAsset, PLUGIN_INTERNAL} from "@eofol-utils/webpack-util"
+import {join, read} from "@eofol-utils/fs"
+import {minifyHtml, minifyJs} from "@eofol-utils/minify"
 
 // @TODO finish
 const getINTERNALS = () => {
@@ -8,7 +8,7 @@ const getINTERNALS = () => {
 }
 
 const isAssetView = (views, assetName) =>
-    Object.values(views).filter((view) => `assets/js/${view}.js` === assetName).length > 0
+    Object.values(views).filter((view) => `assets/js/${view.url}.js` === assetName).length > 0
 
 const injectInternals = (assetName, source) => {
     const internals = getINTERNALS()

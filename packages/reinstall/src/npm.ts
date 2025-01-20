@@ -1,4 +1,4 @@
-import {spawnOptions,execCmd} from "@eofol-util/misc"
+import {spawnOptions,execCmd} from "@eofol-utils/misc"
 
 const LOGLEVEL = 3;
 const {info} = getLogger(LOGLEVEL, "npm-scripts");

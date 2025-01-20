@@ -1,5 +1,5 @@
-const {existsAsync, writeAsync, join} = require("@eofol-util/fs")
-import {execCmd} from "@eofol-util/misc"
+const {existsAsync, writeAsync, join} = require("@eofol-utils/fs")
+import {execCmd} from "@eofol-utils/misc"
 
 const writeIdempotent = (pathname, content) => {
     existsAsync(pathname).then((existsResult) => {

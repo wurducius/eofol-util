@@ -1,4 +1,4 @@
-import { getHash } from "@eofol-util/crypto"
+import { getHash } from "@eofol-utils/crypto"
 
 import { SX } from "./constants"
 import { camelCaseToKebabCase, isBrowser } from "./util"

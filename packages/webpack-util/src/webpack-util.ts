@@ -1,5 +1,5 @@
-import {prettySize} from "@eofol-util/dev-tools"
-import {resolve, stat} from "@eofol-util/fs"
+import {prettySize} from "@eofol-utils/dev-tools"
+import {resolve, stat} from "@eofol-utils/fs"
 
 // @TODO proofead this script!
 

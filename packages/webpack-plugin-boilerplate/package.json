@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/webpack-plugin-boilerplate",
+  "name": "@eofol-utils/webpack-plugin-boilerplate",
   "version": "0.0.1",
   "exports": {
     "./plugin": "./src/plugin.ts"
@@ -10,8 +10,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

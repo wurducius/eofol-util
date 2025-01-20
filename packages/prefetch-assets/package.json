@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/prefetch-assets",
+  "name": "@eofol-utils/prefetch-assets",
   "version": "0.0.1",
   "exports": {
     "./prefetch": "./src/prefetch.ts"
@@ -10,8 +10,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

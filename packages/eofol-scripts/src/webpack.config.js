@@ -1,8 +1,8 @@
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin
-const {join} = require("@eofol-util/fs")
+const {join} = require("@eofol-utils/fs")
 
 const getEntry = (view, projectDir) =>
-    views.reduce((acc, next) => ({...acc, [next]: join(projectDir, `${next}.ts`)}), {})
+    views.map((view) => view.url).reduce((acc, next) => ({...acc, [next]: join(projectDir, `${next}.ts`)}), {})
 
 const getWebpackConfig = ({views, plugins, analyze, mode, projectDir, buildDir}) => ({
     mode: mode ?? "development",

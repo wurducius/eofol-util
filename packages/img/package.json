@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/img",
+  "name": "@eofol-utils/img",
   "version": "0.0.1",
   "exports": {
     "./img": "./src/img.ts"
@@ -9,13 +9,13 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/fs": "*",
+    "@eofol-utils/fs": "*",
     "sharp": "^0.33.5",
     "svgo": "^3.3.2"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

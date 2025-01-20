@@ -1,4 +1,4 @@
-const { mergeDeep } = require("@eofol-util/merge-deep")
+const { mergeDeep } = require("@eofol-utils/merge-deep")
 
 let INTERNALS = {
     instances: {},

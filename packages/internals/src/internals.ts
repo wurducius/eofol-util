@@ -1,4 +1,4 @@
-import {mergeDeep} from "@eofol-util/merge-deep"
+import {mergeDeep} from "@eofol-utils/merge-deep"
 import {Instance, VDOM, VDOM_COMPONENT, VDOM_TAG, VDOM_TEXT, VDOM_TYPE} from "./types";
 
 // eslint-disable-next-line no-undef

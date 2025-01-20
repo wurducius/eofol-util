@@ -1,4 +1,4 @@
-const {writeAsync, readAsync, join, mkdirAsync} = require("@eofol-util/fs")
+const {writeAsync, readAsync, join, mkdirAsync} = require("@eofol-utils/fs")
 
 const touchBuildDirs = async (buildPath) => {
     if (!exists(buildPath)) {

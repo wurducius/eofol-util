@@ -1,4 +1,4 @@
-import {execCmd} from "@eofol-util/misc"
+import {execCmd} from "@eofol-utils/misc"
 
 export const check = (path?: string, fix?: boolean) =>
     execCmd("npx", ["eslint", "-c", "eslint.config.mjs", fix && "--fix", path ?? "."].filter(Boolean))

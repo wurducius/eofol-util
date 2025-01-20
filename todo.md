@@ -1,9 +1,7 @@
 # To do list
 
 ## packages
-- internals-assets
-- internals
-- eofol-scripts
+- prefetch-assets
 
 - progress
 - web-test

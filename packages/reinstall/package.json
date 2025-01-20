@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/reinstall",
+  "name": "@eofol-utils/reinstall",
   "version": "0.0.2",
   "exports": {
     "./reinstall": "./src/reinstall.ts"
@@ -15,12 +15,12 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/args": "^0.0.1",
-    "@eofol-util/misc": "^0.0.2"
+    "@eofol-utils/args": "^0.0.1",
+    "@eofol-utils/misc": "^0.0.2"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

@@ -1,5 +1,5 @@
 {
-  "name": "@repo/typescript-config",
+  "name": "@eofol-utils/typescript-config",
   "version": "0.0.1",
   "license": "MIT",
   "publishConfig": {

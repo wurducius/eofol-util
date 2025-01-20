@@ -2,12 +2,12 @@
 
 "use strict";
 
-const {getArgs} = require("@eofol-util/args");
+const {getArgs} = require("@eofol-utils/args");
 const createEofolApp = require("./create-eofol-app-impl");
 
 let gitUrl = "https://github.com/wurducius/eofol5.git"
 let title = "Create Eofol5 app"
-let exampleCommand = "npx @eofol-util/create-eofol-app project-name [gitUrl] [title] [exampleCommand]"
+let exampleCommand = "npx @eofol-utils/create-eofol-app project-name [gitUrl] [title] [exampleCommand]"
 
 const args = getArgs()
 

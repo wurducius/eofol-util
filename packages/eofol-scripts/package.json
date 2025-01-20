@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/eofol-scripts",
+  "name": "@eofol-utils/eofol-scripts",
   "version": "0.0.1",
   "description": "Eofol build and development scripts",
   "exports": {
@@ -18,16 +18,16 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/args": "*",
-    "@eofol-util/dev-tools": "*",
-    "@eofol-util/fs": "*",
+    "@eofol-utils/args": "*",
+    "@eofol-utils/dev-tools": "*",
+    "@eofol-utils/fs": "*",
     "ts-loader": "^9.5.2",
     "webpack": "^5.97.1",
     "webpack-bundle-analyzer": "^4.10.2"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",
