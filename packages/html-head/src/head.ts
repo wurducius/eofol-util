@@ -1,6 +1,6 @@
-import { html, renderHtml,HeadData } from "@eofol-util/gzip-parser"
+import { html, renderHtml,HeadData } from "@eofol-utils/gzip-parser"
 import { JSONContent } from "gzip-to-json-parser/dist/types"
-import mergeDeep from "@eofol-util/merge-deep"
+import mergeDeep from "@eofol-utils/merge-deep"
 import defaultHeadData from "./default-head-data"
 
 const relativizePathDefault = (path: string | undefined) => path

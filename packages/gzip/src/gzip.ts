@@ -1,4 +1,4 @@
-const { read,write } = require("@eofol-util/fs")
+const { read,write } = require("@eofol-utils/fs")
 const gzip = require("gzip-js")
 
 const COMPRESS_GZIP_LEVEL = 9

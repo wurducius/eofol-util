@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/crypto",
+  "name": "@eofol-utils/crypto",
   "version": "0.0.1",
   "exports": {
     "./crypto": "./src/crypto.ts"
@@ -11,8 +11,8 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

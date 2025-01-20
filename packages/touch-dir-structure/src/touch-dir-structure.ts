@@ -1,4 +1,4 @@
-import { exists, mkdirAsync } from "@eofol-util/fs"
+import { exists, mkdirAsync } from "@eofol-utils/fs"
 
 export const touchBuildDirs = async (buildPath) => {
   if (!exists(buildPath)) {

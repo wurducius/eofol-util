@@ -1,6 +1,6 @@
 {
-  "name": "eofol-util",
-  "version": "0.0.2",
+  "name": "eofol-utils",
+  "version": "0.0.3",
   "description": "Utility library organized around project eofol",
   "author": "Jakub Eliáš <wurducius@gmail.com>",
   "license": "MIT",

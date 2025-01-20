@@ -7,7 +7,7 @@ const PORT = "3000";
 const WAIT = 150;
 const OPEN = true;
 
-const serveUrl = `${PROTOCOL}://${HOST}:${PORT}`;
+const serveUrl = `${PROTOCOL}://${HOST === "0.0.0.0" ? "localhost" : HOST}:${PORT}`
 
 export const serve = (options) => {
   const optionsDefault = {

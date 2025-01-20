@@ -2,7 +2,7 @@
 
 "use strict";
 
-import {getArgs} from "@eofol-util/args";
+import {getArgs} from "@eofol-utils/args";
 
 const lint = require("../src/lint");
 

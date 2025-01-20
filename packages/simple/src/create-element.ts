@@ -1,6 +1,6 @@
 import { Attributes, Classname, EofolNode, Properties } from "./types";
-import { generateId } from "@eofol-util/crypto";
-import { domAppendChildren } from "@eofol-util/dom";
+import { generateId } from "@eofol-utils/crypto";
+import { domAppendChildren } from "@eofol-utils/dom";
 
 export const e = (
   tagName: string,

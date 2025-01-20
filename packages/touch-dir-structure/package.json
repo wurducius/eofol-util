@@ -1,19 +1,19 @@
 {
-  "name": "@eofol-util/touch-dir-structure",
+  "name": "@eofol-utils/touch-dir-structure",
   "version": "0.0.1",
   "exports": {
-    "./touch-dir-structure": "./src/touch-dir-structure.ts",
+    "./touch-dir-structure": "./src/touch-dir-structure.ts"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/fs": "*",
+    "@eofol-utils/fs": "*"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

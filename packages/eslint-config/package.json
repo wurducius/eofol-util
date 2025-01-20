@@ -1,5 +1,5 @@
 {
-  "name": "@repo/eslint-config",
+  "name": "@eofol-utils/eslint-config",
   "version": "0.0.1",
   "type": "module",
   "exports": {

@@ -2,7 +2,7 @@
 
 "use strict";
 
-const {evalBoolParam} = require("@eofol-util/args");
+const {evalBoolParam} = require("@eofol-utils/args");
 const {reinstall} = require("../src/reinstall")
 
 const noCleanCache = evalBoolParam("-c", "--no-lint")

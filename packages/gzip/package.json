@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/gzip",
+  "name": "@eofol-utils/gzip",
   "version": "0.0.1",
   "exports": {
     "./gzip": "./src/gzip.ts"
@@ -9,12 +9,12 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/fs": "^0.0.2",
-    "gzip-js": "^0.3.2",
+    "@eofol-utils/fs": "^0.0.2",
+    "gzip-js": "^0.3.2"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

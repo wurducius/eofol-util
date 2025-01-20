@@ -2,7 +2,7 @@
 
 "use strict";
 
-const {getArgs} = require("@eofol-util/args");
+const {getArgs} = require("@eofol-utils/args");
 const { check, prettify } = require("../src/lint")
 
 const args = getArgs()

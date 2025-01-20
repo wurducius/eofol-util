@@ -1,0 +1,26 @@
+{
+  "name": "@eofol-utils/internals",
+  "version": "0.0.1",
+  "exports": {
+    "./internals": "./src/internals.ts",
+    "./internals-compile": "./src/internals-compile.js"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@eofol-utils/merge-deep": "*"
+  },
+  "devDependencies": {
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
+    "typescript": "5.5.4"
+  },
+  "bugs": "https://github.com/wurducius/eofol-util/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurducius/eofol-util.git",
+    "directory": "packages/internals"
+  }
+}

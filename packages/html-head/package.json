@@ -1,5 +1,5 @@
 {
-  "name": "@eofol-util/html-head",
+  "name": "@eofol-utils/html-head",
   "version": "0.0.1",
   "exports": {
     "./default-head-data": "./src/default-head-data.ts",
@@ -10,13 +10,13 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@eofol-util/fs": "*",
+    "@eofol-utils/fs": "*",
     "@eofol/html-parser": "^0.0.1",
     "@eofol/merge-deep": "^0.0.1"
   },
   "devDependencies": {
-    "@eofol-util/eslint-config": "*",
-    "@eofol-util/typescript-config": "*",
+    "@eofol-utils/eslint-config": "*",
+    "@eofol-utils/typescript-config": "*",
     "typescript": "5.5.4"
   },
   "bugs": "https://github.com/wurducius/eofol-util/issues",

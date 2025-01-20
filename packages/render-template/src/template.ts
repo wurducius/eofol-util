@@ -1,5 +1,5 @@
-import { readAsync,writeAsync,join,parse} from "@eofol-util/fs"
-import { head } from "@eofol-util/gzip-head"
+import { readAsync,writeAsync,join,parse} from "@eofol-utils/fs"
+import { head } from "@eofol-utils/gzip-head"
 
 export const compileTemplate = (buildPath, projectPath, stylesStatic, headData) => async (viewName) => {
   const content = await readAsync(join(projectPath, `${viewName}.html`))
